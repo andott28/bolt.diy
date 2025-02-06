@@ -34,6 +34,12 @@ export default class OpenRouterProvider extends BaseProvider {
       maxTokenAllowed: 8000,
     },
     {
+      name: 'qwen/qwen2.5-vl-72b-instruct:free',
+      label: 'qwen2.5-vl-72b-instruct (free)',
+      provider: 'OpenRouter',
+      maxTokenAllowed: 8000,
+    },
+    {
       name: 'anthropic/claude-3-haiku',
       label: 'Anthropic: Claude 3 Haiku (OpenRouter)',
       provider: 'OpenRouter',
